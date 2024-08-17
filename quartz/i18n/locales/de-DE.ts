@@ -22,8 +22,8 @@ export default {
       quote: "Zitat",
     },
     backlinks: {
-      title: "Backlinks",
-      noBacklinksFound: "Keine Backlinks gefunden",
+      title: "Rückverweise",
+      noBacklinksFound: "Keine Rückverweise gefunden",
     },
     themeToggle: {
       lightMode: "Light Mode",
@@ -54,7 +54,7 @@ export default {
       title: "Inhaltsverzeichnis",
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `${minutes} min read`,
+      readingTime: ({ minutes }) => `${minutes} min Lesezeit`,
     },
   },
   pages: {
@@ -65,7 +65,7 @@ export default {
     error: {
       title: "Nicht gefunden",
       notFound: "Diese Seite ist entweder nicht öffentlich oder existiert nicht.",
-      home: "Return to Homepage",
+      home: "Zurück zur Startseite",
     },
     folderContent: {
       folder: "Ordner",
