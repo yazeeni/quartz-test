@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "de-DE",
     baseUrl: "yazeeni.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
